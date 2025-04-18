@@ -6,9 +6,9 @@ public class MahasiswaData {
         this.nama =nama;
         this.prodi =prodi;
     }
-    void tampilInfo(){
-        System.out.println("NIM   :"+this.nim);
-        System.out.println("Nama  :"+this.nama);
-        System.out.println("Prodi :"+this.prodi);
+    void tampilInfo(){        
+        System.out.println(this.nim+"\t| "+this.nama+"\t| "+this.prodi);
+        // System.out.println("Nama  :"+this.nama);
+        // System.out.println("Prodi :"+);
     }    
 }

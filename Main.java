@@ -17,6 +17,8 @@ public class Main {
             menu = sc.nextInt();
 
             if(menu == 1){
+                MahasiswaAksi aksi = new MahasiswaAksi();
+                aksi.tampil();
                 continue;
             }else if(menu == 2){
                 continue;
@@ -32,7 +34,6 @@ public class Main {
                 continue;
             }
         }
-
 
         
         sc.close();
